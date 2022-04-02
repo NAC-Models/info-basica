@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>INFORMACION BASICA</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <form action="" class="formulario">
+      <img src="logonac.PNG" class="imgLogo" />
+
+      <h1 class="formulario__titulo">NAC Model's</h1>
+      <h3 class="formulario__subtitulo">BIENVENIDA</h3>
+      <p class="formulario__parrafo">
+        Continua el proceso diligenciando la siguiente información.
+      </p>
+        <br>
+      <p>
+      <label for="ASPIRANTE" class="formulario__label">¿Cuál es tu nombre?</label>
+      <input
+        id="ASPIRANTE"
+        type="text"
+        class="formulario__input"
+        placeholder="Indica cuál es tu nombre completo"
+      />
+
+      <label for="EDAD" class="formulario__label">¿Cual es tu edad?</label>
+      <input
+        id="EDAD"
+        type="number"
+        class="formulario__input"
+        placeholder="Indica tu edad actual"
+      />
+
+      <label for="UBICACION" class="formulario__label">¿En que barrio de Medellín vives?</label>
+
+        <input 
+        id="UBICACION"
+        type="text"
+        class="formulario__input"
+        placeholder="Barrio"
+      />
+
+      <label for="EXPERENCIA" class="formulario__label">¿Tienes experiencia como modelo webcam?</label>
+
+        <input 
+        id="EXPERENCIA"
+        type="text"
+        class="formulario__input"
+        placeholder="Tiempo"
+        />
+        
+        <label for="HORARIO" class="formulario__label">¿En que horario estas interesada? </label>
+
+        <input 
+        id="HORARIO"
+        type="text"
+        class="formulario__input"
+        placeholder="Mañana, Tarde, Noche"
+        />
+    </p>
+   <p>
+    <label for="NOTA1" class="formulario__label">¡NOTA! </label>
+    <label for="NOTA2" class="formulario__label">Envianos una foto tuya al chat (foto normal sin filtros) </label>
+   </p>  
+
+      <div id="respuesta"></div>
+
+      <button id="submit" class="formulario__submit">Enviar a WhatsApp</button>
+    </form>
+    <script src="js/form.js"></script>
+  </body>
+</html>
